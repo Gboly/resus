@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color1: #001F3F;
+  --color2: #FFD700;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,7 +32,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
-    color: var(--color);
+    color: var(--color1);
 }
 
 * {

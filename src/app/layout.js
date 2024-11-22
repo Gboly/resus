@@ -1,5 +1,5 @@
-import localFont from "next/font/local";
 import "./globals.css";
+import { openSans } from "@/app/fonts";
 
 export const metadata = {
   title: "Resus",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={`${openSans.className}`}>{children}</body>
     </html>
   );
 }

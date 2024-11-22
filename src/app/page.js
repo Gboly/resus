@@ -1,8 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import "./page.css";
+import Nav from "@/components/nav/Nav";
 
 const Home = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 };
 
 export default Home;
