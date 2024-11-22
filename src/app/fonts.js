@@ -1,4 +1,4 @@
-import { Philosopher, Open_Sans } from "next/font/google";
+import { Philosopher, Open_Sans, Playfair } from "next/font/google";
 
 export const philosopherFont = Philosopher({
   subsets: ["latin"],
@@ -7,5 +7,10 @@ export const philosopherFont = Philosopher({
 
 export const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["400", "500", "600"],
+});
+
+export const playfair = Playfair({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
 });

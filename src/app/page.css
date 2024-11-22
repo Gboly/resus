@@ -1,5 +1,53 @@
+.first {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30rem;
+}
 .bg-img {
     width: 100%;
-    height: auto;
-    opacity: .8;
+    height: 30rem;
+    object-fit: cover;
+    object-position: top left;
+    opacity: .7;
+    position: absolute;
+    z-index: -2;
+}
+.first > div {
+    margin: 0 3rem;
+}
+.first > div > p {
+    font-size: 2.5rem;
+    font-weight: 900;
+    display: flex;
+    gap: 1rem;
+    color: var(--background);
+}
+.first > div > p:first-of-type > span:last-of-type, .first > div > p:last-of-type > span:first-of-type {
+    color: var(--color2);
+}
+.first > div > div {
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+.first > div > div > button {
+    width: 12rem;
+    padding: 1rem 0;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: .85rem;
+}
+.first > div > div > button:hover {
+    opacity: .7;
+}
+.first > div > div > button:first-of-type {
+    background-color: var(--background);
+    color: var(--color1);
+}
+.first > div > div > button:last-of-type {
+    background-color: var(--color1);
+    color: var(--background);
 }

@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    padding: .5rem 1rem;
+    padding: .5rem 3rem;
     background: linear-gradient(to right, #FFFFD9, #FDFDD7, #E7E7A2);
     display: flex;
     justify-content: space-between;
@@ -33,4 +33,7 @@ nav button {
     border-radius: 1rem;
     border: none;
     background-color: var(--color1);
+}
+nav button:hover {
+    opacity: .8;
 }
