@@ -22,9 +22,9 @@
     font-weight: 900;
     display: flex;
     gap: 1rem;
-    color: var(--background);
+    color: var(--color3);
 }
-.first > div > p:first-of-type > span:last-of-type, .first > div > p:last-of-type > span:first-of-type {
+.highlighted {
     color: var(--color2);
 }
 .first > div > div {
@@ -44,10 +44,49 @@
     opacity: .7;
 }
 .first > div > div > button:first-of-type {
-    background-color: var(--background);
+    background-color: var(--color3);
     color: var(--color1);
 }
 .first > div > div > button:last-of-type {
     background-color: var(--color1);
-    color: var(--background);
+    color: var(--color3);
+}
+.second  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 4rem 1rem;
+}
+.second > div {
+    width: 100%;
+    max-width: 55rem
+}
+.second img {
+    width: 17rem;
+    height: auto;
+}
+.waste-cards, .second > p {
+    margin-top: 4rem;
+    width: 100%;
+    max-width: 55rem;
+}
+.waste-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.waste-cards > div {
+    width: 25rem;
+    height: 15rem;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 10px rgba(121, 121, 121, .5) ;
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.second > p {
+    line-height: 2rem;
 }

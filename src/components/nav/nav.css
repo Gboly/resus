@@ -33,6 +33,7 @@ nav button {
     border-radius: 1rem;
     border: none;
     background-color: var(--color1);
+    color: var(--color3);
 }
 nav button:hover {
     opacity: .8;
