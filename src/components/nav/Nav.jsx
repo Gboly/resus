@@ -18,7 +18,6 @@ const Nav = () => {
       </div>
       <div>
         <div>
-          <a href="#">Home</a>
           <a href="#">Services</a>
           <a href="#">Impact</a>
           <a href="#">About us</a>
