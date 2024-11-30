@@ -60,3 +60,27 @@ a {
     color-scheme: dark;
   }
 } */
+
+@media screen and (max-width: 960px) {
+  :root {
+    --p3: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --h1: 2rem;
+    --p1: 1rem;
+    --p2: 0.8rem;
+    --p3: 0.7rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  :root {
+   --title: 2.8rem;
+   --h1: 1.8rem;
+   --h2: 1.5rem;
+   --p1: 0.9rem;
+   --p2: 0.7rem;
+   --p3: 0.65rem;
+  }
+}

@@ -5,6 +5,7 @@ import "./page.css";
 import Nav from "@/components/nav/Nav";
 import { playfair, openSans } from "./fonts";
 import bg from "@/images/bg.png";
+import bgSm from "@/images/bg-sm.png";
 import question from "@/images/wastequestion.png";
 import Footer from "@/components/footer/Footer";
 
@@ -13,7 +14,8 @@ const Home = () => {
     <main>
       <Nav />
       <section className="first">
-        <Image src={bg} alt="background image" className="bg-img" />
+        <Image src={bg} alt="background image" className="bg-img bg-img-lg" />
+        <Image src={bgSm} alt="background image" className="bg-img bg-img-sm" />
         <div className={`${playfair.className}`}>
           <p>
             <span>CLEAN</span>

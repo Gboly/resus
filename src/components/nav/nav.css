@@ -17,6 +17,9 @@ nav > div:first-of-type > div {
 nav > div:first-of-type > div > span:first-of-type {
     font-size: var(--title);
 }
+nav > div:first-of-type > span {
+    font-size: var(--p2);
+}
 nav > div:last-of-type {
     display: flex;
     gap: 1rem;
@@ -38,4 +41,30 @@ nav button {
 }
 nav button:hover {
     opacity: .8;
+}
+nav i {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: .5rem 1rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    nav > div:first-of-type {
+        gap: 0.3rem;
+    }
+    nav > div:last-of-type {
+        display: none;
+    }
+    nav i {
+        display: inline-block;
+        line-height: 0;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    nav {
+        padding: .3rem 1rem;
+    }
 }
