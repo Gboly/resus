@@ -12,10 +12,10 @@ nav > div:first-of-type {
     align-items: baseline;
 }
 nav > div:first-of-type > div {
-    font-size: 2rem;
+    font-size: var(--h2);
 }
 nav > div:first-of-type > div > span:first-of-type {
-    font-size: 3.5rem;
+    font-size: var(--title);
 }
 nav > div:last-of-type {
     display: flex;
@@ -26,7 +26,7 @@ nav > div:last-of-type > div {
     display: flex;
     gap: 1rem;
     align-items: center;
-    font-size: 1rem;
+    font-size: var(--p2);
 }
 nav button {
     padding: .5rem 1rem;
@@ -34,6 +34,7 @@ nav button {
     border: none;
     background-color: var(--color1);
     color: var(--color3);
+    font-size: var(--p3);
 }
 nav button:hover {
     opacity: .8;

@@ -18,7 +18,7 @@
     margin: 0 3rem;
 }
 .first > div > p {
-    font-size: 2.5rem;
+    font-size: var(--h1);
     font-weight: 900;
     display: flex;
     gap: 1rem;
@@ -38,7 +38,7 @@
     border-radius: 1.5rem;
     border: none;
     font-weight: 600;
-    font-size: .85rem;
+    font-size: var(--p3);
 }
 .first > div > div > button:hover {
     opacity: .7;
@@ -84,9 +84,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.15rem;
+    font-size: var(--p1);
     font-weight: 600;
 }
 .second > p {
     line-height: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    
 }
