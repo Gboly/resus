@@ -1,7 +1,14 @@
+import { useLayoutEffect } from "react";
 import "./navbar.css";
 import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = ({ closeBar }) => {
+  useLayoutEffect(() => {
+    document.body.style.overflowY = "hidden";
+
+    return () => (document.body.style.overflowY = "visible");
+  }, []);
+
   return (
     <div className="navbar">
       <i onClick={closeBar}>
